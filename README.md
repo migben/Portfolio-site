@@ -115,7 +115,7 @@ Make sure you have added a LICENSE file in your project folder. **Shortcut:** Cl
 
 I personally add the name of the license and provide a link to it like below. -->
 
-[GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
+[MIT Public](https://opensource.org/licenses/MIT)
 
 # Footer
 [(Back to top)](#table-of-contents)
