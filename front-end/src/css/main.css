@@ -897,27 +897,33 @@ About Page
 .about-page {
   padding: 7rem 0;
 }
+
 .about-img {
   margin-bottom: 2rem;
   height: 25rem;
 }
+
 .about-text .section-title {
   margin-bottom: 2rem;
   text-align: left;
 }
+
 .about-text .underline {
   margin-left: 0;
   margin-right: 0;
 }
+
 .about-text p {
   line-height: 2;
 }
+
 .stack-container {
   width: 30rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 0.5rem;
 }
+
 .stack-container span {
   text-transform: uppercase;
   display: flex;
@@ -925,11 +931,13 @@ About Page
   letter-spacing: 1px;
   color: var(--clr-grey-4);
 }
+
 .stack-icon {
   color: var(--clr-primary-5);
   margin-right: 0.25rem;
   font-size: 1rem;
 }
+
 @media screen and (min-width: 992px) {
   .about-center {
     display: grid;
@@ -945,16 +953,19 @@ About Page
     grid-column: 6 / -1;
   }
 }
+
 /*
 ===============
 Contact Page
 ===============
 */
+
 .contact-page {
   display: grid;
   place-items: center;
   padding: 5rem 0;
 }
+
 .contact-form {
   background: var(--clr-white);
   border-radius: var(--radius);
@@ -964,16 +975,20 @@ Contact Page
   width: 90vw;
   max-width: 35rem;
 }
+
 .contact-form:hover {
   box-shadow: var(--dark-shadow);
 }
+
 .contact-form h3 {
   padding-top: 1.25rem;
   color: var(--clr-grey-5);
 }
+
 .form-group {
   padding: 1rem 1.5rem;
 }
+
 .form-control {
   display: block;
   width: 100%;
@@ -985,12 +1000,14 @@ Contact Page
   text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
+
 .form-control::placeholder {
   font-family: var(--ff-primary);
   color: var(--clr-grey-1);
   text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
+
 .submit-btn {
   display: block;
   width: 100%;
@@ -1000,11 +1017,13 @@ Contact Page
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+
 /*
 ===============
 Blog Template
 ===============
 */
+
 .blog-template {
   padding: 5rem 0;
 }
@@ -1013,10 +1032,12 @@ Blog Template
 .blog-template h2 {
   text-align: center;
 }
+
 .blog-template ul {
   margin-top: 2rem;
   display: inline-block;
 }
+
 .blog-template ul li {
   background: var(--clr-grey-9);
   color: var(--clr-grey-5);

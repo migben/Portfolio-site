@@ -3,6 +3,7 @@ import {
   FaGithubAlt,
   FaLinkedin,
   FaTwitterSquare,
+  FaCode,
 } from "react-icons/fa"
 
 const data = [
@@ -17,9 +18,14 @@ const data = [
     url: "https://www.linkedin.com/in/miguelben",
   },
   {
-    id: 5,
+    id: 3,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
     url: "https://www.twitter.com/SutzakuX",
+  },
+  {
+    id:4,
+    icon: <FaCode className="social-icon"></FaCode>,
+    url: "https://leetcode.com/migben/",
   },
 ]
 const links = data.map(link => {

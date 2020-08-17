@@ -5,6 +5,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/mnt/c/Users/Ben/git-dev/react-space/gatsby/portfolio2/portfolio-site/front-end/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/mnt/c/Users/Ben/git-dev/react-space/gatsby/portfolio2/portfolio-site/front-end/src/pages/404.js"))),
   "component---src-pages-about-js": hot(preferDefault(require("/mnt/c/Users/Ben/git-dev/react-space/gatsby/portfolio2/portfolio-site/front-end/src/pages/about.js"))),
   "component---src-pages-blog-js": hot(preferDefault(require("/mnt/c/Users/Ben/git-dev/react-space/gatsby/portfolio2/portfolio-site/front-end/src/pages/blog.js"))),
